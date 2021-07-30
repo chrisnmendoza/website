@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+div:not(.header) {
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #007fff;
+    width: 100%;
+}
+
+.kipper {
+    padding-top: 30px;
+}
+
+.socials {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+a {
+    color: black;
+}
+
+.link {
+    height: 33px;
+    width: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#github {
+    float: right;
+}
+
+#linkedin {
+    float: right;
+}
+
+.nav-item {
+    color: black;
+}
+

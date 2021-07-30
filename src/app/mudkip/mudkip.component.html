@@ -1,0 +1,17 @@
+<div>
+    <label for="name">Hero name: </label>
+    <input id="name" [(ngModel)]="mudkip.name" placeholder="name">
+</div>
+
+<h2>Gen 1 Starters</h2>
+
+<ul class="pokemans">
+  <li *ngFor="let pokeman of pokemans" 
+  [class.selected]="pokeman === selectedPokemon" 
+  (click)="onSelect(pokeman)">
+    <span class="badge">{{pokeman.id}}</span> {{pokeman.name}}
+  </li>
+</ul>
+
+
+<app-pokemon-detail [pokemon]="selectedPokemon"></app-pokemon-detail>
