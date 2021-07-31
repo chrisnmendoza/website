@@ -22,7 +22,6 @@ import { AboutComponent } from './about';
 import { ProjectsComponent } from './projects';
 import { HeaderComponent } from './header/header.component';
 import { ScrollerComponent } from './scroller/scroller.component';
-import { ProjectDataComponent } from './project-data/project-data.component';
 import { ProjectsDataComponent } from './projects-data/projects-data.component';
 
 @NgModule({
@@ -37,7 +36,6 @@ import { ProjectsDataComponent } from './projects-data/projects-data.component';
     ProjectsComponent,
     HeaderComponent,
     ScrollerComponent,
-    ProjectDataComponent,
     ProjectsDataComponent
   ],
   imports: [
