@@ -2,12 +2,14 @@
     height: 640px;
     width: 1600px;
     border: 1px solid black;
+    margin: auto;
+    overflow-y:hidden;
   }
   
   .cdk-virtual-scroll-data-source-example .example-viewport .cdk-virtual-scroll-content-wrapper {
     display: flex;
     flex-direction: row;
-    padding-top:20px;
+    padding-top:45px;
   }
   
   .cdk-virtual-scroll-data-source-example .example-item {
@@ -38,8 +40,8 @@
 }
 
 img {
-    height:70%;
-    width:70%;
+    height:80%;
+    width:80%;
 }
 
 .infoBox:hover {
