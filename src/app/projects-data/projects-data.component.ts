@@ -33,12 +33,18 @@ export class ProjectsDataComponent implements OnInit {
         if(div == 2) {
             this.thirdDesc = this.descriptionArray[div];
         }
+        document.getElementById("scroll")?.setAttribute("style","height: 640px;");
+        document.getElementById("scroll2")?.setAttribute("style","height: 640px;");
+        //document.getElementById("scroll")?.setAttribute("style","overflow-x: hidden;");
+        //document.getElementById("scroll2")?.setAttribute("style","overflow-x: hidden;");
      }
   
      mouseLeave(){
        this.foodDesc = "";
        this.sudokuDesc = "";
        this.thirdDesc = "";
+       document.getElementById("scroll")?.setAttribute("style","height: 400px;");
+       document.getElementById("scroll2")?.setAttribute("style","height: 400px;");
      }
 
 }

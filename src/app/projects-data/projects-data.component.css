@@ -1,15 +1,17 @@
 .cdk-virtual-scroll-data-source-example .example-viewport {
-    height: 640px;
+    height: 400px;
     width: 1600px;
     border: 1px solid black;
     margin: auto;
     overflow-y:hidden;
+    transition: all 0.2s ease-in-out;
   }
   
   .cdk-virtual-scroll-data-source-example .example-viewport .cdk-virtual-scroll-content-wrapper {
     display: flex;
     flex-direction: row;
     padding-top:45px;
+    transition: all 0.2s ease-in-out;
   }
   
   .cdk-virtual-scroll-data-source-example .example-item {
