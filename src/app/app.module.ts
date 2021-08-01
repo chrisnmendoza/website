@@ -21,7 +21,6 @@ import { HomeComponent } from './home';
 import { AboutComponent } from './about';
 import { ProjectsComponent } from './projects';
 import { HeaderComponent } from './header/header.component';
-import { ScrollerComponent } from './scroller/scroller.component';
 import { ProjectsDataComponent } from './projects-data/projects-data.component';
 
 @NgModule({
@@ -35,7 +34,6 @@ import { ProjectsDataComponent } from './projects-data/projects-data.component';
     AboutComponent,
     ProjectsComponent,
     HeaderComponent,
-    ScrollerComponent,
     ProjectsDataComponent
   ],
   imports: [
