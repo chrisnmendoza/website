@@ -1,6 +1,6 @@
 .cdk-virtual-scroll-data-source-example .example-viewport {
     height: 400px;
-    width: 1600px;
+    width: 1200px;
     border: 1px solid black;
     margin: auto;
     overflow-y:hidden;

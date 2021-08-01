@@ -27,6 +27,7 @@ div:not(.header) {
 .socials {
     margin-left: auto; 
     margin-right: 0;
+    padding-top: 10px;
 }
 
 a {
@@ -55,4 +56,8 @@ img {
 
 .nav-item {
     color: black;
+}
+
+.addSpace {
+    padding-top: 20px;
 }
