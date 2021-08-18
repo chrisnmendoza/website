@@ -42,8 +42,8 @@
 }
 
 img {
-    height:80%;
-    width:80%;
+    height:90%;
+    width:90%;
 }
 
 .infoBox:hover {
@@ -67,5 +67,20 @@ img {
 }
 
 h1 {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.techStack {
+    border-radius: 25px;
+    background: #ccff99;
+    padding: 20px;
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+span {
+    font-size: 23px;
 }

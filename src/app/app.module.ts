@@ -22,6 +22,7 @@ import { AboutComponent } from './about';
 import { ProjectsComponent } from './projects';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsDataComponent } from './projects-data/projects-data.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProjectsDataComponent } from './projects-data/projects-data.component';
     AboutComponent,
     ProjectsComponent,
     HeaderComponent,
-    ProjectsDataComponent
+    ProjectsDataComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

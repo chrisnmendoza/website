@@ -30,8 +30,8 @@ div {
 
 .infoBox:hover {
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-    height: 530px;
-    width: 530px;
+    height: 500px;
+    width: 500px;
 }
 
 img {
