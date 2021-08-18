@@ -11,4 +11,6 @@ import { MenuComponent } from '../menu/menu.component';
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
   })
-export class HomeComponent {}
+export class HomeComponent {
+  bio: string = "I'm Chris Mendoza, a current student attending the University of Delaware. I'm studying Computer Engineering and I have minors if Computer Science and Cybersecurity. Software Engineering has been a huge interest of mine, and I try to work on coding-related projects whenever I can. So I made this website! The menu icon on the top left displays all the pages, but you can also click on the links below!";
+}

@@ -1,9 +1,15 @@
 html, body {
     margin: 0;
+    background:blue;
 }
 
 h1 {
     text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 div {
@@ -15,6 +21,63 @@ div {
 }
 
 
-a {
-    color: white;
+img {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 300px;
+    float: right;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 600px;
+    background-color: #ffd1dc;
+    padding: 20px;
+    border-radius: 25px;
+    min-height: 500px;
+    display:inline-flex;
+}
+
+.content2 {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 600px;
+    background-color: #9db8f1;
+    padding: 20px;
+    border-radius: 25px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.itemLeft {
+    width: 100%;
+    min-width: 200px;
+    max-width: 450px;
+    line-height:25px;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.itemRight {
+    float: right;
+    width: 90%;
+    height: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.link {
+    float: left;
+    width: 150px;
+}
+
+.spacer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
 }

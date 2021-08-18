@@ -23,6 +23,7 @@ import { ProjectsComponent } from './projects';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsDataComponent } from './projects-data/projects-data.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ExperienceComponent } from './experience/experience.component';
     ProjectsComponent,
     HeaderComponent,
     ProjectsDataComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
