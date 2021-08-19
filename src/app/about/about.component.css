@@ -1,0 +1,22 @@
+img {
+    height: 30%;
+    width: 30%;
+    padding: 80px;
+}
+
+.content {
+    margin: auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 600px;
+    background-color: #e7e982;
+    padding: 20px;
+    border-radius: 25px;
+    height: 100%;
+    line-height: 50px;
+}
+
+.spacer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
