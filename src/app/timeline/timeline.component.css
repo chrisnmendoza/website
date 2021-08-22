@@ -110,6 +110,10 @@
     border-radius: 10px;
     background-color: rgb(233, 179, 190);
   }
+
+  .content:hover {
+    box-shadow: 0 4px 17px rgb(224, 223, 118);
+  }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
@@ -142,4 +146,5 @@
     .right {
       left: 0%;
     }
+
   }
