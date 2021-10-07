@@ -8,7 +8,8 @@ This project requires Angular CLI version 12.1.0 or above to run locally. Head o
 
 ## Running the Project
 
-Run `ng serve --open` to start up the project on a local server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. 
+Run `ng serve --open` to start up the project on a local server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.    
+The code for the website is in the gh-pages branch.
 
 ## Further help
 
