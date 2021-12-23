@@ -25,7 +25,9 @@ export class ProjectsDataComponent implements OnInit {
     "C, MPLAB X IDE, PIC32-based Microprocessor Board",
     "Python, Pygame",
     "VHDL, WSL (Ubuntu)",
-    "AngularJS, HTML, CSS, TypeScript"
+    "AngularJS, HTML, CSS, TypeScript, Github Pages",
+    "JavaScript, HTML, CSS, Google Firebase Realtime Database, Github Pages",
+    "Java, Weka"
   ];
   descriptionArr: string[] = [
     "This decentralized vaccine record keeper/tracker stores its data on the Ethereum Blockchain.",
@@ -33,7 +35,9 @@ export class ProjectsDataComponent implements OnInit {
     "I programmed a microprocessor board with servo motors attached to follow a line of black tape.",
     "Funnily enough, I had to do a Sudoku Solver for class the semester after making this. Sadly, it was in Java while I did this in Python.",
     "This project was for a Computer Engineering class. We designed an instruction-fed calculator in VHDL at the RTL level. It's also capable of skipping instructions",
-    "Source code for this website!"
+    "The source code for this website!",
+    "I made this messaging web app for a Web Applications class, it is modeled off of Discord so I decided to name it accordingly",
+    "The source code for a Rule-based Classification algorithm I modified for my Data Mining class"
   ];
 
     mouseEnter(div : number){
