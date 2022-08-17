@@ -27,7 +27,8 @@ export class ProjectsDataComponent implements OnInit {
     "VHDL, WSL (Ubuntu)",
     "AngularJS, HTML, CSS, TypeScript, Github Pages",
     "JavaScript, HTML, CSS, Google Firebase Realtime Database, Github Pages",
-    "Java, Weka"
+    "Java, Weka",
+    "MERN Stack (MongoDB, Express.js, React.js, Node.js)"
   ];
   descriptionArr: string[] = [
     "This decentralized vaccine record keeper/tracker stores its data on the Ethereum Blockchain.",
@@ -37,7 +38,8 @@ export class ProjectsDataComponent implements OnInit {
     "This project was for a Computer Engineering class. We designed an instruction-fed calculator in VHDL at the RTL level. It's also capable of skipping instructions",
     "The source code for this website!",
     "I made this messaging web app for a Web Applications class, it is modeled off of Discord so I decided to name it accordingly",
-    "The source code for a Rule-based Classification algorithm I modified for my Data Mining class"
+    "The source code for a Rule-based Classification algorithm I modified for my Data Mining class",
+    "A search engine for coding assistance. I made this with Cameron Frey for our Data Search class."
   ];
 
     mouseEnter(div : number){
