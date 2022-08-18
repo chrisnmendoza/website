@@ -39,7 +39,7 @@ export class ProjectsDataComponent implements OnInit {
     "The source code for this website!",
     "I made this messaging web app for a Web Applications class, it is modeled off of Discord so I decided to name it accordingly",
     "The source code for a Rule-based Classification algorithm I modified for my Data Mining class",
-    "A search engine for coding assistance. I made this with Cameron Frey for our Data Search class. Hosted using AWS EC2, ELB, and Route 53"
+    "A search engine for coding assistance. I made this with Cameron Frey for our Data Search class. Hosted using AWS EC2, Elastic Load Balancing, and Route 53."
   ];
 
     mouseEnter(div : number){
