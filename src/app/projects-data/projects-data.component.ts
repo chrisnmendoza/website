@@ -28,7 +28,7 @@ export class ProjectsDataComponent implements OnInit {
     "AngularJS, HTML, CSS, TypeScript, Github Pages",
     "JavaScript, HTML, CSS, Google Firebase Realtime Database, Github Pages",
     "Java, Weka",
-    "MERN Stack (MongoDB, Express.js, React.js, Node.js)"
+    "MERN Stack (MongoDB, Express.js, React.js, Node.js), AWS"
   ];
   descriptionArr: string[] = [
     "This decentralized vaccine record keeper/tracker stores its data on the Ethereum Blockchain.",
@@ -39,7 +39,7 @@ export class ProjectsDataComponent implements OnInit {
     "The source code for this website!",
     "I made this messaging web app for a Web Applications class, it is modeled off of Discord so I decided to name it accordingly",
     "The source code for a Rule-based Classification algorithm I modified for my Data Mining class",
-    "A search engine for coding assistance. I made this with Cameron Frey for our Data Search class."
+    "A search engine for coding assistance. I made this with Cameron Frey for our Data Search class. Hosted using AWS EC2, ELB, and Route 53"
   ];
 
     mouseEnter(div : number){
