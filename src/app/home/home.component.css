@@ -81,3 +81,58 @@ img {
     padding-bottom: 5px;
     border: 0px;
 }
+
+.cdk-virtual-scroll-data-source-example .example-viewport {
+    height: 400px;
+    width: 1200px;
+    border: 1px solid black;
+    margin: auto;
+    overflow-y:hidden;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .cdk-virtual-scroll-data-source-example .example-viewport .cdk-virtual-scroll-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top:45px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .cdk-virtual-scroll-data-source-example .example-item {
+    width: 50px;
+    height: 100%;
+    writing-mode: vertical-lr;
+  }
+
+
+  .infoBox {
+    height:500px;
+    width:530px;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.infoBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 400px;
+}
+
+.mini {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:384px;
+    width:530px;
+    max-width:600px;
+    float: none;
+    border-radius: 10px;
+}
