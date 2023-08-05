@@ -1,6 +1,6 @@
 # My Website
 
-Welcome to the source code of my website! You can view my website at `https://chrisnmendoza.github.io/website/`.
+Welcome to the source code of my website! You can view my website at [https://chrisnmendoza.github.io/website/](https://chrisnmendoza.github.io/website/).
 
 # Dependencies
 
