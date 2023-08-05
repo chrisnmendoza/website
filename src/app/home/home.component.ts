@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  bio: string = "I'm Chris Mendoza, a graduate student attending the University of Delaware. I'm studying Cybersecurity with a concentration in Security Analytics. Software Engineering has been a huge interest of mine, and I try to work on coding-related projects whenever I can. So I made this website! The menu icon on the top left displays all the pages, but you can also click on the links below!";
+  bio: string = "I'm Chris Mendoza, a Software Engineer and a graduate from the University of Delaware. I've studied Cybersecurity with a concentration in Security Analytics, and Computer Engineering for Grad School and Undergrad respectively. Software Engineering has been a huge interest of mine, and I try to work on coding-related projects whenever I can. So I made this website! The menu icon on the top left displays all the pages, but you can also click on the links below!";
 
   techStackArr: string[] = [
     "Truffle Suite, Solidity, HTML, CSS, JavaScript, Metamask, Ganache",
